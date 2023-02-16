@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/12f8a52f0a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="mx-auto mt-4 w-9/12  bg-lime-600 p-3  bg-amber-600 border">
+            <h1 class="text-center font-medium text-2xl mb-2">My Text Editor</h1>
+            <div class="bg-green-600 ">
+                <div class="mx-9 grid  grid-cols-3  p-3 border-black ">
+                    <div class="flex gap-4">
+                        <button id="bold"><i class="fa-solid fa-bold"></i>
+                            <button id="italic"> <i class="fa-solid fa-italic"></i></button>
+                            <button id="underline"> <i class="fa-solid fa-underline"></i></button>
+                    </div>
+                    <div class="flex gap-3">
+                        <button id="justify"><i class="fa-solid fa-align-justify"></i></button>
+                        <button id="left"><i class="fa-solid fa-align-left"></i></button>
+                        <button id="center"> <i class="fa-solid fa-align-center"></i></button>
+                        <button id="right"><i class="fa-solid fa-align-right"></i></button>
+                    </div>
+                    <div class="flex gap-3">
+                        <button id="uppercase">
+                            <p>&#77;&#77;</p>
+                        </button>
+                        <button id="lowercase">
+                            <p>&#97;&#97;</p>
+                        </button>
+                        <button id="color"><input type="color" name=""></button>
+                    </div>
+                </div>
+                <div class=" text-center mx-auto">
+                    <textarea class=" border-t-4 border-black p-2 w-11/12 mb-5" name=""
+                        placeholder="Hello !!!  It it is a simple text" id="text-area" cols="63" rows="10"></textarea>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="challenges3.js"></script>
+</body>
+
+</html>
